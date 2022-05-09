@@ -1,0 +1,225 @@
+
+.Logo 
+{ 
+    float: left;
+    width: 10%; 
+    height: auto;   
+    text-align: center;  
+    
+} 
+.Titulo 
+{ 
+
+    font-size:80px;
+    float: right;
+    width: 90%; 
+    height: auto; 
+    text-align: center; 
+
+   
+}
+.autos
+{
+    width: 100%; 
+}
+.img_auto
+{
+    float: left;
+    display:inline-table; 
+    width: 50%; 
+    height: auto; 
+    text-align: center; 
+    padding: 10px 0px 10px;  
+}
+.img_auto:hover,.minipublicidad1:hover,.minipublicidad2:hover,.minipublicidad3:hover
+{
+    transform: scale(1.08)
+}
+.texto{
+    float: right;
+    display:inline-table; 
+    width: 48%; 
+    height: auto; 
+    text-align: center; 
+
+    
+}
+.autos_info
+{
+    float: left;
+    padding: 5px 0px;
+    width: 100%; 
+
+
+    
+}
+.modelo_auto
+{ 
+    font-family:Copperplate;
+    font-size:40px;
+    width: 100%;
+    display: inline-block; 
+    padding-top:10px;
+    margin-top: 10px;
+    height: 50px; 
+    text-align: center; 
+    background-color: #13385f;
+    color: #fff;
+}
+
+.Cuerpo
+{ 
+    font-family:Copperplate;
+    font-size:30px;
+    margin-top: 10px;
+    display: inline-block; 
+    height: auto; 
+    text-align: justify; 
+   
+
+}
+.Publicidad
+{
+    float: right;
+    align-items: center;
+    margin-top: 0px;
+    width: 99%; 
+    height: auto; 
+    
+}
+.minipublicidad1
+{
+    float: left;
+    margin-left:30px;
+    display:inline-table; 
+    margin-top: 1px;
+    width: 35%; 
+    height: auto; 
+    text-align: center; 
+    
+     
+    padding: 1px 0px 1px;  
+}
+.minipublicidad2
+{
+    
+
+    margin-top: 1px;
+    width: 29%; 
+    height: auto; 
+    float: left; 
+    padding: 1px 0px 1px;
+    
+}
+.minipublicidad3
+{
+   
+    display:inline-table; 
+    margin-top: 1px;
+    width: 25%; 
+    height: auto; 
+    float: left; 
+     
+    padding: 1px 0px 1px;
+    
+}
+
+.fut
+{
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 350px;
+}
+
+.fut h1
+{
+    font-family:Copperplate; 
+    margin: auto;
+    font-size: 30px;
+}
+.fut p{
+    font-family:Copperplate; 
+    margin: auto;
+    font-size: 14px;
+}
+
+.iconos{
+    width:25px;
+    height: auto;   
+    
+}
+
+
+img{
+    width: 100%;
+    padding: auto;
+}
+header
+{
+    float: left;
+    width: 100%;
+    background-color: #fff;
+}
+
+section
+{
+    margin-top: 10px;
+    width: 70%; 
+    float: left;
+}
+aside
+{
+    margin-top: 10px;
+    width: 20%; 
+    float: right;
+    
+}
+#lista{
+    font-size: 25px;  
+    padding-right: 90px;
+
+}
+.Red-Social{
+    
+    color:white;
+    text-decoration: none;  
+    
+}
+
+footer
+{
+    font-family:Copperplate;    
+    display:flex;
+    flex-direction: column;
+    background: #13385f;
+    height: 350px;
+    color:white;
+    width: 100%;
+    padding-top: 0px;
+}
+
+
+@media screen and (max-width:817px){
+    #cabeza_principal{
+        width: 100%;
+    }
+    
+    aside{
+        width: 100%;
+    }
+    section{
+        width:100%;
+    }
+    footer{
+        width:100%;
+    }
+    .img_auto{
+        width:100%;
+    }
+    .texto{
+        width:100%;
+    }
+}
+
+
